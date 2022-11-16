@@ -1,4 +1,4 @@
 # Pull base image 
-From httpd
+From httpd:latest
  
 COPY ./index.html  /usr/local/apache2/htdocs
